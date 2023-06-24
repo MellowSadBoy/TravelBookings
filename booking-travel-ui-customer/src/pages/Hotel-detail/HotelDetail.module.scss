@@ -1,0 +1,199 @@
+.wrapper{
+  width: 100%;
+  padding-top: var(--padding-top);
+  background-color: #F5F5F5;
+  padding-bottom: 1rem;
+  @media only screen and (max-width: 600px) {
+    padding-top:10rem;
+  }
+}
+.single-box-content {
+  margin-top: 20px;
+  .breadcrumb-custom {
+    // max-width: 940px;
+    margin: auto;
+    margin-left: 11em;
+    .breadcrumb {
+
+      font-size: 16px;
+      background: transparent;
+      padding: 8px 0px;
+      margin-bottom: 20px;
+      list-style: none;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+
+      span {
+        color: #ccc;
+        a {
+          text-decoration: none;
+          span {
+            color: #083e7e;
+          }
+
+        }
+      }
+
+    }
+  }
+  .container-content{
+    margin:auto;
+    width: 1100px;
+
+  }
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  .box-info-summary-inner {
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    .box-content-top {
+      padding: 20px;
+      padding-bottom: 0px;
+    }
+    .table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+      .td-col-left {
+        width: 570px;
+        td {
+          border-top: 0px;
+          padding: 0px;
+        }
+        .box-info {
+          text-align: left;
+          display: block;
+          margin-bottom: 15px;
+        }
+        .box-title {
+          background: #f4f7ff;
+          font-size: 12px;
+          color: #333333;
+          text-transform: uppercase;
+          padding: 5px;
+
+        }
+        .box-star{
+          padding-left: 15px;
+          i {
+            color: #f6d738;
+            font-size: 18px;
+            padding: 0px 3px;
+          }
+        }
+        .hotel-title{
+          margin-bottom: 15px;
+
+          h1 {
+            color: #15284a;
+            font-size: 20px;
+            line-height: 25px;
+            border-bottom: 0px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+          }
+        }
+
+        .hotel-address {
+          margin-bottom: 15px;
+          h3 {
+            color: #9aa2b2;
+            font-size: 13px;
+            margin: 0px;
+          }
+        }
+      }
+      .td-col-right {
+        .price-room-from {
+          font-size: 14px;
+          color: #333333;
+          margin-bottom: 5px;
+        }
+        .price-old {
+          .old {
+            text-decoration: line-through;
+            font-size: 14px;
+            color: #9aa2b2;
+          }
+        }
+        .price-medium {
+          color: #ff9000;
+          font-size: 22px;
+          margin-bottom: 10px;
+          span {
+            color: #333333;
+            font-size: 14px;
+          }
+        }
+
+      }
+    }
+    .box-content-bottom {
+      border-top: 1px solid #e6e6e6;
+      padding: 20px;
+      padding-top: 20px;
+      .box-facilities {
+        .box-title {
+          h2 {
+            font-size: 18px;
+            color: #15284a;
+            margin-bottom: 20px;
+          }
+        }
+        .content-facilities {
+          width: 100%;
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          div {
+            font-size: 15px;
+            color: #333333;
+            margin-bottom: 30px;
+            i {
+              font-size: 20px;
+              margin-right: 5px;
+
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+    .box-map-inner {
+      background: #fff;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: auto 300px;
+      border-radius: 5px;
+      .box-content {
+        h3{
+          font-size: 16px;
+          color: #15284a;
+          margin-bottom: 15px;
+          margin-top: 0px;
+        }
+        .content-item {
+          width: 100%;
+          font-size: 13px;
+          color: #333333;
+          ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            li {
+              margin-bottom: 20px;
+              padding-right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+

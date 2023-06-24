@@ -1,0 +1,60 @@
+{
+    "hotelInput": {
+        "addressStart": {
+            "countryCode": "VN",
+            "district": "Huyện Si Ma Cai",
+            "districtCode": "0802",
+            "province": "Lào Cai",
+            "provinceCode": "20",
+            "ward": "Thị Trấn Si Ma Cai",
+            "wardCode": "90816",
+            "province_child_id": 269,
+            "district_child_id": 2264,
+            "address": "Phân khu chức năng 7.9, KDL hồ Tuyền Lâm, Phường 3, Đà Lạt, Tỉnh Lâm Đồng, Việt Nam"
+        },
+        "imgUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/ee670d18-adbf-9a32-65cf-55c7ac0cf633.png?alt=media&token=442a0049-2b36-4b23-9c26-bd13d6a04cdb",
+            "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/451cc977-2e79-7f35-72ba-7a6d6d519450.png?alt=media&token=dfac5126-ddbf-4b23-9c82-0e64f5002e1e",
+            "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/00d9280b-f0cb-ae6a-e5fa-3bad954cf013.png?alt=media&token=f4335af0-abea-4c7f-a2ee-2feb1b9df545",
+            "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/c60b40b3-1b1d-12e3-5a25-e3c904bfcfcc.png?alt=media&token=40f8d00d-a577-4e64-9ae4-d9866e2692a6"
+        ],
+        "name": "Terracotta Hotel & Resort Đà Lạt",
+        "type": "FIVE_STAR"
+    },
+    "roomInput": [
+        {
+            "discount": "33",
+            "maxPeople": "33",
+            "numberRoom": "33",
+            "price": {
+                "amount": "33",
+                "currencyCode": "VND"
+            },
+            "type": "TRIPLE_ROOM",
+            "vacant": "true",
+            "imgUrls": [
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/e72388ec-22db-8a38-74e3-0b58e4b9e6cf.png?alt=media&token=fb7af1e0-e31b-4525-ade8-80462585f17b",
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/21b5faec-be55-8028-5904-4a6e4c2cf89a.png?alt=media&token=4d418efd-c674-4181-aa55-d82ac1288db5",
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/962b851f-0824-d7f5-8c73-43d4611d18dc.png?alt=media&token=c7f8b9a7-2f4b-4ff1-ae38-4e6fbda88a4d",
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/59d2926d-d0e2-b53e-b857-68c4a1ef0d15.png?alt=media&token=970054e5-030b-4a35-bd46-aa79b84b45ef"
+            ]
+        },
+        {
+            "discount": "12",
+            "maxPeople": "21212",
+            "numberRoom": "1212",
+            "price": {
+                "amount": "1212",
+                "currencyCode": "VND"
+            },
+            "type": "SINGLE_ROOM",
+            "vacant": "true",
+            "imgUrls": [
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/f3a0b1e4-4af4-6aaf-6857-874404d7070e.png?alt=media&token=7ba801a7-d279-421e-8089-d3ff4e8118f3",
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/7207d759-b3e3-1201-830e-9a97435e8842.png?alt=media&token=6695705f-9e0b-4d70-972d-291af220f681",
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/071e07e4-d6f9-693f-baf9-37dc9fbe06e6.png?alt=media&token=61e424b1-7a01-4e15-8a57-11bb3e3354aa",
+                "https://firebasestorage.googleapis.com/v0/b/cdda-f9cd6.appspot.com/o/8f682d85-1025-470e-04e1-bd871f935d40.png?alt=media&token=7b43f031-0007-46c9-bd78-3fa780d19c98"
+            ]
+        }
+    ]
+}

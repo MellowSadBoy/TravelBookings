@@ -1,0 +1,120 @@
+
+.bookingTour{
+    h3{
+        font-size: 1.6rem;
+    }
+}
+
+.box-summary{
+    width: 100%;
+    min-height: 100px;
+    border-radius: 5px;
+    border: solid 1px #eff3fe;
+    background-color: #ffffff;
+    .summary-main{
+    padding: 20px;
+    font-size: 15px;
+    color: #15284a;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 100px auto;
+
+        .box-img {
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+        .box-title{
+            margin-left: 2rem;
+            h3{
+                font-size: 19px;
+                color: #15284a;
+                font-weight: bold;
+                line-height: 22px;
+                margin: 0px 0rem 10px;
+            }
+            .description {
+                font-size: 15px;
+                color: #333333;
+                display: block;
+            }
+        }
+      
+    }
+     .summary-total {
+        padding: 20px 20px;
+        border-top: 1px solid #cacdd4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       .tlb-info {
+            width: 100%;
+            font-size: 17px;
+            color: #191919;
+         
+            td {
+                padding: 10px 0px;
+                .title {
+                    font-size: 16px;
+                    color: #9aa2b2;
+                    white-space: nowrap;
+                }
+                .info-right {
+                    text-align: right;
+                }
+            }
+            i {
+                margin-right: 10px;
+            }
+            
+            .line{
+                width: 190%;
+                border-top: 1px solid #f0f2f5;
+            }
+            .tr-total{
+                td {
+                    padding: 15px 0px;
+                }
+                .info-right{
+                    font-size: 18px;
+                    color: #ff9000;
+                    
+                }
+            }
+        }
+       
+        .info-right.type-tax {
+            font-size: 13px;
+            color: #2681ff;
+          
+        }
+        .box-hotline {
+            margin-top: 20px;
+            border-radius: 3px;
+            background-color: #f0f2f5;
+            line-height: 37px;
+            text-align: center;
+            margin-bottom: 20px;
+            i {
+                color: #9aa2b2;
+                padding-right: 10px;
+                font-size: 18px;
+                margin-right: 10px;
+            }
+            a {
+                
+                color: #1d1d1d;
+                text-decoration: none;
+                font-weight: 700;
+            }
+        }
+       .type-tax {
+            font-size: 16px;
+            color: #2681ff;
+            
+        }
+        
+    }
+}
+

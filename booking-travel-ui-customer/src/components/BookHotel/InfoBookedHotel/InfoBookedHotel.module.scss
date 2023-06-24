@@ -1,0 +1,31 @@
+.box-infoBooked{
+    height: 49.4rem;
+    font-size: 16px;
+    border: 1px solid #cac9c9;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius:  0.2rem; ;
+    .info-header{
+        height: 4rem;
+        background-color: #354fba;
+        color: white;
+        display: flex;
+        align-items: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hiệu ứng đổ bóng */
+        padding: 1rem;
+    }
+    .info-content{
+        h5{
+            font-size: 15px;
+            font-weight: 300;
+            color: #619af7;
+        }
+        line-height: 3.5rem;
+        padding: 1.5rem;
+        span{
+            font-weight: 550;
+        }
+
+    }
+}

@@ -1,0 +1,33 @@
+.box-infoBooked{
+    font-size: 16px;
+    border: 1px solid #cac9c9;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius:  0.2rem; ;
+    .info-header{
+        height: 4rem;
+        background-color: #354fba;
+        color: white;
+        display: flex;
+        align-items: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hiệu ứng đổ bóng */
+        padding: 1rem;
+    }
+    .info-content{
+        line-height: 3.5rem;
+        padding: 1.5rem;
+        span{
+            font-weight: 550;
+        }
+        .box-status-pay{
+            margin-top: 4rem;
+            margin-left: 2rem;
+            width: 100px;
+            height: 100%;
+            border: 1px solid red;
+            
+        }
+
+    }
+}

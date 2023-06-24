@@ -1,0 +1,74 @@
+
+html{
+    background-color: white;
+}
+.payment{
+    margin: 0 3.5rem;
+   
+}
+.tour-box-content{
+    display: grid;
+    grid-template-columns: 210px auto;
+   
+    .menu-item{
+        // background-color: #03c5f5;
+        a{
+            &:hover {
+                background-color: #081d5f;
+              }
+        }
+    }
+    .box-menu-tab {
+        background: #081d5f;
+        padding: 15px 0px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+       
+        h3 {
+            margin: 0px;
+            padding: 0px;
+            color: #03c5f5;
+            font-size: 16px;
+          
+            padding: 0px 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #041343;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            li {
+                line-height: 50px;
+                a {
+                    font-size: 15px;
+                    color: #f5f5f5;
+                    text-decoration: none;
+                    display: block;
+                }
+            }
+        }
+        .active {
+            background: #fff;
+            a {
+                color: #081d5f;
+            }
+        }
+
+    }
+   
+    
+    
+}
+.back-home {
+    margin-right: 1.8rem;
+    color: #FFFFFF;
+    width: 13.5rem;
+    background-color: var(--primary-color) !important;
+    justify-content: center;
+
+    &:hover {
+        background-color: var(--primary-color);
+    }
+
+}

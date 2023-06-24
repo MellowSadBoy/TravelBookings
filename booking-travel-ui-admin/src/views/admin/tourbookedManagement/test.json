@@ -1,0 +1,38 @@
+{
+    "id": "1684746811255314",
+    "createdAt": 1684746811255,
+    "updatedAt": 1684746846608,
+    "createdBy": null,
+    "updatedBy": "Vũ Văn Minh",
+    "cancelledAt": 1684746846608,
+    "startAt": 1687854170215,
+    "endAt": null,
+    "cancelName": "Vũ Văn Minh",
+    "tourId": "1684743770333907",
+    "tourName": "Tour du lịch Đà Nẵng – Hà Nội – Sapa – Ninh Bình 4N3Đ | Bao gồm vé máy bay khứ hồi",
+    "featuredImgTour": "https://www.vietnambooking.com/wp-content/uploads/2018/01/tour-sapa-4n3d-13-1-2018-2-300x200.jpg",
+    "timeHowLong": "FOUR_DAY_THREE_NIGHT",
+    "tourType": "DOMESTIC",
+    "status": "CANCELLED",
+    "note": null,
+    "tax": {
+        "amount": 0,
+        "currencyCode": null
+    },
+    "totalPrice": {
+        "amount": 10065000,
+        "currencyCode": "VND"
+    },
+    "customerId": "1681655185456549",
+    "customerName": "Vũ Văn Minh",
+    "customerEmail": "19130137@st.hcmuaf.edu.vn",
+    "customerPhone": "0988243854",
+    "salePrice": {
+        "amount": 0,
+        "currencyCode": "VND"
+    },
+    "quantityChildren": 2,
+    "quantityAdult": 1,
+    "requesteds": [],
+    "paymentMethod": "IN_OFFICE"
+}

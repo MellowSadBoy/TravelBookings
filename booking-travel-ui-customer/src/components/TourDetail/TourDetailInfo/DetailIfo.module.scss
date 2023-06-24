@@ -1,0 +1,273 @@
+.single-box-content-inner {
+    span{
+        font-size: 16px;
+    }
+    i{
+        font-size: 16px;
+
+    }
+   
+    .title-tour {
+        font-size: 25px;
+        color: #e50131;
+        border-bottom: 0px;
+        margin-bottom: 13px;
+        min-height: 65px;
+    }
+    .single-content{
+        min-height: 500px;
+        letter-spacing: 0.3px;
+        font-size: 19px;
+        text-shadow: none;
+    
+        
+
+        img {
+            max-width: 100%;
+            margin: auto;
+            display: inherit;
+        }
+
+       
+    }
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        z-index: 1;
+        .owl-stage-outer {
+            position: relative;
+            overflow: hidden;
+            .owl-stage{
+                transform: translate3d(-3100px, 0px, 0px);
+                transition: all 0.25s ease 0s;
+                width: 3720px;
+                .owl-item {
+                    position: relative;
+                    min-height: 1px;
+                    float: left;
+                    -webkit-backface-visibility: hidden;
+                    -webkit-tap-highlight-color: transparent;
+                    -webkit-touch-callout: none;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+    .box-tlb-tour {
+        border-bottom: 1px solid #cccccc;
+        margin-bottom: 20px;
+
+        table {
+          
+            margin: auto;
+            margin-bottom: 20px;
+            width: 100%;
+             td {
+            
+                font-size: 16px;
+                color: #1e1e1e;
+                padding: 5px 0px;
+                vertical-align: top;
+                margin-bottom: 20px;
+                i{
+                    letter-spacing: 2px;
+                }
+                .title-tour{
+                color: #0066d9;
+                font-size: 16px;
+                text-transform: uppercase;
+                }
+                .id-tour {
+                    color: #e50131;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+                
+                
+                
+            }
+            .traffic{
+                display: flex;
+                img{
+                   margin-left: 2px;
+                   margin-right: 0px;
+                }
+                
+            }
+        }
+    }
+    
+    .box-service-tour{
+        .title-service {
+            margin: 0px;
+            padding: 0px;
+            font-weight: normal;
+            font-size: 20px;
+            margin-bottom: 20px;
+                color: #0066d9;
+                margin: 10px 0px;
+            
+        }
+        .list-extra-services {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            margin-bottom: 20px;
+            li {
+                list-style: none;
+                display: inline-block;
+                width: 33%;
+                vertical-align: top;
+                line-height: 35px;
+                color: #252525;
+                font-size: 15px;
+            }
+        }
+
+    }
+    .single-box-excerpt{
+
+        p{
+            margin: 10px;
+            text-align: justify;
+            strong{
+                font-size: 18px;
+                span{
+                    font-size: 18px;
+                    color: #ff0000;
+                }
+            }
+        }
+        a {
+            color: #428bca;
+            text-decoration: none;
+        }
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 10px;
+            li{
+                margin-left: 40px;
+                text-align: justify;
+               
+            }
+        }
+       
+    }
+    .panel-group{
+        margin-bottom: 20px;
+        
+        .panel {
+            margin-bottom: 0;
+            border-radius: 4px;
+        
+        ul{
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        h3,p,li{
+            text-align: justify;
+        }
+            .panel-heading {
+                padding: 10px;
+                background: #0066d9;
+                box-shadow: 0px 0px 1px #ccc;
+                border-radius: 5px;
+                .panel-title {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-size: 16px;
+                    color: inherit;
+                    a {
+                        display: block;
+                        font-size: 18px;
+                        color: #fff;
+                        text-transform: uppercase;
+                        
+                    }
+                }
+            }
+            .in {
+                display: block;
+            }
+            .panel-body {
+                border-top: 1px solid #ddd;
+                padding: 15px;
+                .content-tour-item {
+                    font-size: 14px;
+                    line-height: 25px;
+                    font-family: 'os_regular';
+                    height: 300px;
+                    overflow: hidden;
+                    color: #1d1d1d;
+                }
+            }
+        }
+        .panel-tour-product {
+            .content-tour-item {
+                font-size: 16px;
+                line-height: 25px;
+        
+                
+                color: #1d1d1d;
+                table {
+                   
+                    margin: auto;
+                    margin-bottom: 50px;
+                }
+                .banggia {
+                    width: 100%;
+                    border-collapse: collapse;
+                    line-height: none;
+                    margin-bottom: 20px;
+                    color: #222;
+                    background-color: white;
+                        margin: auto;
+                        margin-bottom: 50px;
+    
+                    tr{
+                        &:nth-child(odd) {
+                            background-color: #f9f9f9;
+                        }
+                    }
+                    th {
+                        border-top: none;
+                        border-bottom: none;
+                        color: white;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: normal;
+                        vertical-align: middle;
+                        padding: 6px 0px;
+                        background: #0066d9;
+                        &:first-child {
+                            border-top-left-radius: 5px;
+                        }
+                    }
+                    tbody {
+                        tr {
+                        text-align: center;
+                        border-left: 1px solid #ccc;
+                        border-right: 1px solid #ccc;
+                        td {
+                            vertical-align: top;
+                            border: 1px solid #b5b5b5;
+                            p {
+                                margin: 0 0 10px;
+                            }
+                        }
+                    }
+
+                }
+                }
+            }
+        }
+        
+    }
+}

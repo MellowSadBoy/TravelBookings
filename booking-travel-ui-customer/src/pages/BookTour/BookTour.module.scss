@@ -1,0 +1,198 @@
+html {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.bookTour {
+  margin: 0 3em;
+
+  h3 {
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+}
+
+.box {
+  background-color: white;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+
+  .info-customers {
+
+    label {
+      font-size: 19px;
+      color: #4a3115;
+      font-weight: normal;
+      margin: 1.1rem;
+      margin-bottom: 2em;
+
+      span {
+        color: #f90404;
+      }
+    }
+
+    .info-customer {
+      margin-top: 2rem;
+
+      input[type="text"], input[type="email"] {
+        height: 50px;
+        margin: 0 1rem;
+        width: 88%;
+        margin-top: 0.8em;
+
+      }
+
+      .name {
+        input[type="text"] {
+          width: 95%;
+        }
+      }
+
+
+      input {
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        color: #191919;
+        border: solid 1px #dee3ed;
+      }
+
+      .help-block {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 13px;
+        color: red;
+      }
+    }
+
+    .services-extra {
+      background-color: #f9f9fa;
+      padding: 2rem .5rem 0.5rem;
+
+      .note {
+        font-size: 14px;
+        color: #333333;
+      }
+
+      .box-item {
+
+        border-top: 1px solid #e6e6e6;
+
+
+        label {
+          margin: 1rem;
+          color: #6a6a6a;
+          cursor: pointer;
+          display: block;
+          user-select: none;
+
+          input {
+            margin-right: 2rem;
+            border-radius: 5px;
+            font-size: 15px;
+            color: #191919;
+            border: solid 1px #dee3ed;
+          }
+
+          input[type='checkbox'] {
+            position: relative;
+            cursor: pointer;
+            line-height: normal;
+
+            &:before {
+              content: "";
+              display: block;
+              position: absolute;
+              width: 20px;
+              height: 20px;
+              top: -3px;
+              left: 0;
+              border: 2px solid #a9a9a9;
+              border-radius: 3px;
+              background-color: white;
+            }
+
+            &:checked:before {
+              background: #3b6fd0;
+              outline: 0;
+              border: solid #3873cb;
+            }
+
+            &:checked:after {
+              content: "";
+              display: block;
+              width: 6px;
+              height: 12px;
+              border: solid #fff;
+              border-width: 0 3px 3px 0;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+              position: absolute;
+              top: 0px;
+              left: 7px;
+            }
+
+          }
+        }
+
+
+      }
+    }
+
+    .next {
+      .box-title {
+        font-size: 22px;
+        color: #085ae8;
+        user-select: none;
+        cursor: pointer;
+        margin: 1em 1.5em 20px;
+
+      }
+
+      .form-control {
+        display: block;
+        width: 90%;
+        height: 70px;
+        padding: 6px 12px;
+        margin-left: 1.5em;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+      }
+
+      .box-submit {
+        margin: 1rem 0;
+
+        .btn-submit-contact-booking {
+          background: #2293f0;
+          font-size: 17px;
+          line-height: 40px;
+          text-transform: uppercase;
+          min-width: 40%;
+          border-radius: 4px;
+          outline: 0;
+          color: #fff;
+          margin: auto;
+          border: 0px;
+          display: block;
+        }
+      }
+    }
+  }
+
+}
+
+.title {
+  color: var(--primary-color);
+}
+
